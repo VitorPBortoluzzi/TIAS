@@ -12,13 +12,14 @@ Link do trabalho: https://tcconline.lapinf.ufn.edu.br/media/midias/anamnese_GA4m
 Descrição do trabalho:
     Este trabalho apresenta o desenvolvimento de uma
     ferramenta Web para a Anamnese Intuitiva Orientada por
-    Inteligência Artificial (IA), com foco na otimização do prédiagnóstico de doenças cardíacas. A aplicação web integra a
-    coleta eficiente de informações do paciente para analisar dados
-    com base em um extenso dataset e em um modelo de aprendizado
+    Inteligência Artificial (IA), com foco na otimização do prédiagnóstico de doenças cardíacas. 
+    A aplicação web integra a coleta eficiente de informações do paciente 
+    para analisar dados com base em um extenso dataset e em um modelo de aprendizado
     de máquina. Com este trabalho, é fornecido um pré-diagnóstico
     percentual confiável ao profissional de saúde, buscando níveis
     elevados de eficiência e precisão. A metodologia do projeto e
-    desenvolvimento priorizou a usabilidade e uma experiência satisfatória, que também contribui com segurança, privacidade e ética
+    desenvolvimento priorizou a usabilidade e uma experiência satisfatória, 
+    que também contribui com segurança, privacidade e ética
     dos dados do usuário para aplicações futuras. Os resultados e as
     implicações do protótipo são discutidos, juntamente com possíveis
     adições futuras, ressaltando o potencial dessa ferramenta para
