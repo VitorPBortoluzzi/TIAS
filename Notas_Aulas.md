@@ -9,14 +9,18 @@
 Predição e Previsao:
     KDD(Descoberta de Conhecimento em Bancos de Dados - Knowledge Discovery in Databases)  
         --> Mineração de Dados   
-            --> Reconhecimento de Padrões (Pattern Recognition)  
-                -->Algoritmos de Precição  
+                -->Algoritmos de Predição  
                 -->Algoritmos de Previsão  
                     Redes Neuráis Artificiais (R.N.A)  
                     Estátisticas(Matemática)  
+
+                    --> Reconhecimento de Padrões (Pattern Recognition)  
+
 ```
 
 #### Predição
+
+Categorizar/Classificar/Etiquetar/Rotular
 
 * **Sentido geral:** é o termo mais amplo. Refere-se ao ato de **estimar um valor, classe ou comportamento futuro, presente ou até passado desconhecido**, com base em dados e modelos.
 * **Âmbito:** pode envolver **classificação** (prever rótulos/categorias) ou **regressão** (prever valores numéricos).
@@ -27,6 +31,9 @@ Predição e Previsao:
 * **Importante:** a predição não precisa ser, necessariamente, sobre o futuro. Pode ser sobre o presente ou passado, desde que o dado real não seja conhecido no momento.
 
 #### Previsão
+
+Estimar/Prever/Linha Temporal|Série Temporal
+Trabalha com Dados Futuros
 
 * **Sentido mais específico:** normalmente associada a **séries temporais** e eventos futuros.
 * **Âmbito:** quase sempre lida com estimativas de **valores futuros** baseadas em padrões históricos.
