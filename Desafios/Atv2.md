@@ -161,4 +161,4 @@ Avaliação da Base de Dados:
   Devido ao baixo volume total da base de dados, a amostra de teste ficou reduzida (75 pessoas) e ligeiramente desequilibrada: 45 não compraram (Classe 0) e 30 compraram (Classe 1). 
   Há 50% mais registros no grupo de não compradores em relação ao de compradores.
 
-O provavel Underfitting geralizado foi causado pela base de dados fraca
+Uma base de Dados fraca
