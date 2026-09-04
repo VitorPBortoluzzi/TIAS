@@ -42,3 +42,55 @@ Trabalha com Dados Futuros
   * Estimar a temperatura de amanhã com base nos dados climáticos dos últimos 10 anos.
   * Projetar o faturamento do próximo trimestre.
 * **Importante:** a previsão implica **tempo** — está sempre ligada ao que ainda vai acontecer.
+
+
+# Métricas de Avaliação de Modelos de Machine Learning
+
+---
+
+## 1. Matriz de Confusão
+> Mapeia as previsões do modelo contra os casos reais, permitindo identificar se o modelo favorece uma classe em detrimento de outra.
+
+---
+
+## 2. Acurácia (*Accuracy*)
+Proporção de todas as previsões corretas sobre o total de casos.
+
+$$ \text{Acurácia} = \frac{VP + VN}{VP + VN + FP + FN} $$
+
+* **Uso ideal:** Útil como uma visão geral do desempenho quando as **classes estão balanceadas**.
+
+---
+
+## 3. Precisão
+Taxa de acerto entre todas as vezes em que o modelo previu a classe Positiva.
+
+$$ \text{Precisão} = \frac{VP}{VP + FP} $$
+
+* **Uso ideal:** Mede a confiabilidade dos alarmes emitidos pelo modelo. Deve ser priorizada quando o **custo do Falso Positivo (FP) é alto**.
+
+---
+
+## 4. Recall (Sensibilidade)
+Proporção de casos positivos reais que o modelo conseguiu capturar com sucesso.
+
+$$ \text{Recall} = \frac{VP}{VP + FN} $$
+
+* **Uso ideal:** Mede a capacidade do modelo de não deixar passar instâncias relevantes. Deve ser priorizada quando o **custo do Falso Negativo (FN) é crítico**.
+
+---
+
+## 5. F1-Score
+Média harmônica entre a Precisão e o Recall.
+
+$$ F1 = 2 \times \frac{\text{Precisão} \times \text{Recall}}{\text{Precisão} + \text{Recall}} $$
+
+* **Uso ideal:** Métrica única para avaliar o equilíbrio do modelo em **cenários com dados desbalanceados** ou quando tanto FP quanto FN possuem custos relevantes.
+
+---
+
+### Legenda:
+* **VP:** Verdadeiro Positivo
+* **VN:** Verdadeiro Negativo
+* **FP:** Falso Positivo
+* **FN:** Falso Negativo
