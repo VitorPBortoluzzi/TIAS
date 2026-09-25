@@ -2686,3 +2686,264 @@ OSError: exception: access violation reading 0x0000000000000000
                      metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
                      weights='uniform')
 2026-09-25 08:43:58,362:INFO:tune_model() successfully completed......................................
+2026-09-25 09:08:59,745:INFO:Initializing predict_model()
+2026-09-25 09:08:59,745:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001CB16FA2A50>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CB183B5800>)
+2026-09-25 09:08:59,745:INFO:Checking exceptions
+2026-09-25 09:08:59,745:INFO:Preloading libraries
+2026-09-25 09:09:00,028:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\joblib\externals\loky\backend\context.py:136: UserWarning: Could not find the number of physical cores for the following reason:
+[WinError 2] O sistema não pode encontrar o arquivo especificado
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+
+2026-09-25 09:09:00,197:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:09:00,209:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:09:00,220:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:11:15,065:INFO:Initializing predict_model()
+2026-09-25 09:11:15,065:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001CB16FA2A50>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CB18125E40>)
+2026-09-25 09:11:15,065:INFO:Checking exceptions
+2026-09-25 09:11:15,066:INFO:Preloading libraries
+2026-09-25 09:11:15,452:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:11:15,464:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:11:15,475:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:11:17,409:INFO:Initializing predict_model()
+2026-09-25 09:11:17,409:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001CB16FA2A50>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CB183336A0>)
+2026-09-25 09:11:17,409:INFO:Checking exceptions
+2026-09-25 09:11:17,409:INFO:Preloading libraries
+2026-09-25 09:11:17,798:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:11:17,809:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:11:17,820:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:11:21,302:INFO:Initializing predict_model()
+2026-09-25 09:11:21,302:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001CB16FA2A50>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CB18125E40>)
+2026-09-25 09:11:21,302:INFO:Checking exceptions
+2026-09-25 09:11:21,302:INFO:Preloading libraries
+2026-09-25 09:11:21,651:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:11:21,661:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:11:21,671:WARNING:c:\Users\laboratorio\Desktop\TIAS\PyCaret\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'Yes') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2026-09-25 09:11:46,908:INFO:Initializing predict_model()
+2026-09-25 09:11:46,908:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001CB16FA2A50>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CB18A3FEC0>)
+2026-09-25 09:11:46,908:INFO:Checking exceptions
+2026-09-25 09:11:46,908:INFO:Preloading libraries
+2026-09-25 09:11:46,910:INFO:Set up data.
+2026-09-25 09:11:46,915:INFO:Set up index.
+2026-09-25 09:12:03,361:INFO:Initializing save_model()
+2026-09-25 09:12:03,361:INFO:save_model(model=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), model_name=../models/churn_model, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\LABORA~1\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=Tru...
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('rest_encoding',
+                 TransformerWrapper(exclude=None,
+                                    include=['customerID', 'TotalCharges'],
+                                    transformer=TargetEncoder(cols=['customerID',
+                                                                    'TotalCharges'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              hierarchy=None,
+                                                              min_samples_leaf=20,
+                                                              return_df=True,
+                                                              smoothing=10,
+                                                              verbose=0)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2026-09-25 09:12:03,361:INFO:Adding model into prep_pipe
+2026-09-25 09:13:08,504:INFO:Initializing save_model()
+2026-09-25 09:13:08,504:INFO:save_model(model=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), model_name=../models/churn_model, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\LABORA~1\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=Tru...
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('rest_encoding',
+                 TransformerWrapper(exclude=None,
+                                    include=['customerID', 'TotalCharges'],
+                                    transformer=TargetEncoder(cols=['customerID',
+                                                                    'TotalCharges'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              hierarchy=None,
+                                                              min_samples_leaf=20,
+                                                              return_df=True,
+                                                              smoothing=10,
+                                                              verbose=0)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2026-09-25 09:13:08,504:INFO:Adding model into prep_pipe
+2026-09-25 09:13:08,520:INFO:../models/churn_model.pkl saved in current working directory
+2026-09-25 09:13:08,540:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False...
+                                    transformer=TargetEncoder(cols=['customerID',
+                                                                    'TotalCharges'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              hierarchy=None,
+                                                              min_samples_leaf=20,
+                                                              return_df=True,
+                                                              smoothing=10,
+                                                              verbose=0))),
+                ('trained_model',
+                 KNeighborsClassifier(algorithm='auto', leaf_size=30,
+                                      metric='manhattan', metric_params=None,
+                                      n_jobs=-1, n_neighbors=16, p=2,
+                                      weights='uniform'))],
+         verbose=False)
+2026-09-25 09:13:08,540:INFO:save_model() successfully completed......................................
+2026-09-25 09:13:29,709:INFO:Initializing load_model()
+2026-09-25 09:13:29,709:INFO:load_model(model_name=../models/churn_model, platform=None, authentication=None, verbose=True)
+2026-09-25 09:13:32,460:INFO:Initializing predict_model()
+2026-09-25 09:13:32,460:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001CB16FA2A50>, estimator=Pipeline(memory=FastMemory(location=C:\Users\LABORA~1\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=Tru...
+                                    transformer=TargetEncoder(cols=['customerID',
+                                                                    'TotalCharges'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              hierarchy=None,
+                                                              min_samples_leaf=20,
+                                                              return_df=True,
+                                                              smoothing=10,
+                                                              verbose=0))),
+                ('trained_model',
+                 KNeighborsClassifier(algorithm='auto', leaf_size=30,
+                                      metric='manhattan', metric_params=None,
+                                      n_jobs=-1, n_neighbors=16, p=2,
+                                      weights='uniform'))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CB19927B00>)
+2026-09-25 09:13:32,460:INFO:Checking exceptions
+2026-09-25 09:13:32,460:INFO:Preloading libraries
+2026-09-25 09:13:32,462:INFO:Set up data.
+2026-09-25 09:13:32,466:INFO:Set up index.
+2026-09-25 09:15:10,797:INFO:Initializing save_model()
+2026-09-25 09:15:10,797:INFO:save_model(model=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+                     metric_params=None, n_jobs=-1, n_neighbors=16, p=2,
+                     weights='uniform'), model_name=../models/churn_model, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\LABORA~1\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=Tru...
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('rest_encoding',
+                 TransformerWrapper(exclude=None,
+                                    include=['customerID', 'TotalCharges'],
+                                    transformer=TargetEncoder(cols=['customerID',
+                                                                    'TotalCharges'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              hierarchy=None,
+                                                              min_samples_leaf=20,
+                                                              return_df=True,
+                                                              smoothing=10,
+                                                              verbose=0)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2026-09-25 09:15:10,799:INFO:Adding model into prep_pipe
+2026-09-25 09:15:10,814:INFO:../models/churn_model.pkl saved in current working directory
+2026-09-25 09:15:10,837:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False...
+                                    transformer=TargetEncoder(cols=['customerID',
+                                                                    'TotalCharges'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              hierarchy=None,
+                                                              min_samples_leaf=20,
+                                                              return_df=True,
+                                                              smoothing=10,
+                                                              verbose=0))),
+                ('trained_model',
+                 KNeighborsClassifier(algorithm='auto', leaf_size=30,
+                                      metric='manhattan', metric_params=None,
+                                      n_jobs=-1, n_neighbors=16, p=2,
+                                      weights='uniform'))],
+         verbose=False)
+2026-09-25 09:15:10,837:INFO:save_model() successfully completed......................................
+2026-09-25 09:15:23,050:INFO:Initializing load_model()
+2026-09-25 09:15:23,050:INFO:load_model(model_name=../models/churn_model, platform=None, authentication=None, verbose=True)
